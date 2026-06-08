@@ -257,55 +257,6 @@ Implementada manualmente sem uso de:
 
 
 
-## Variável Analisada
-
-Reserva de Energia (%)
-
-Dados utilizados:
-
-```text
-80%
-75%
-68%
-55%
-38%
-22%
-```
-
-Modelo:
-
-```text
-Y = a + bX
-```
-
-Onde:
-
-```text
-b = Σ(xi-x̄)(yi-ȳ) / Σ(xi-x̄)²
-a = ȳ - b·x̄
-```
-
-
-
-## Resultado Obtido
-
-- Taxa média de queda: -11,83% por ciclo
-- Reserva atual: 22%
-- Reserva prevista para o próximo ciclo: 14,9%
-- Esgotamento total previsto em aproximadamente 1,3 ciclos
-
-
-## Impacto na Decisão
-
-A previsão energética influencia diretamente as recomendações automáticas emitidas pelo sistema.
-
-Como a reserva prevista é inferior a 15%, o sistema recomenda:
-
-- ativação do modo de hibernação;
-- desligamento de sistemas não essenciais;
-- priorização do suporte à vida.
-
-
 
 # ▶️ Como Executar
 
@@ -363,19 +314,6 @@ Radiação elevada.
 [ERRO]
 Sensor TI-04 retornou leitura inválida.
 ```
-
-
-
-# 🛠 Recomendações Geradas
-
-1. Manter suporte à vida ativo.
-2. Ativar comunicação de emergência.
-3. Direcionar energia para sistemas essenciais.
-4. Desligar laboratório e equipamentos não prioritários.
-5. Abrigar tripulação contra radiação.
-6. Iniciar modo de hibernação energética.
-7. Registrar eventos para análise posterior.
-8. Verificar sensor TI-04.
 
 
 

@@ -1,0 +1,43 @@
+#CSV Simulação teste
+
+# --- MODULOS CRITICOS (1 = operacional, 0 = falha) ---
+modulo,status
+suporte_vida,1
+energia,1
+comunicacao,0
+habitat,1
+laboratorio,0
+armazenamento,1
+
+# --- ENERGIA POR HORARIO (kWh) ---
+hora,geracao_solar,consumo,reserva
+06:00,11.2,44.3,82.5
+08:00,28.7,47.8,76.9
+10:00,41.3,53.2,65.4
+12:00,35.6,59.1,50.8
+14:00,17.4,63.7,33.1
+16:00,7.9,67.2,18.4
+
+# --- VARIAVEIS AMBIENTAIS ---
+variavel,valor,unidade,status
+temperatura_interna,23.4,celsius,normal
+temperatura_externa,-61.7,celsius,normal
+nivel_radiacao,4.2,mSv/h,critico
+qualidade_comunicacao,11,percentual,critico
+velocidade_vento,103.5,km/h,alerta
+pressao_interna,101342,pascal,normal
+
+# --- INCONSISTENCIA PROPOSITAL ---
+# Sensor TI-04 com leitura impossível para habitat habitado
+temperatura_interna_sensor_defeituoso,631,celsius,ERRO_SENSOR
+
+# --- LOG DE EVENTOS (ordem cronologica) ---
+id,timestamp,tipo,descricao,severidade
+1,06:15,INFO,Sistema ARES-1 inicializado com sucesso,normal
+2,07:30,ALERTA,Tempestade de poeira detectada a 143km — reducao solar prevista,alerta
+3,08:45,FALHA,Modulo de comunicacao desligado — antena primaria danificada,critico
+4,09:30,ALERTA,Nivel de radiacao elevado: 4.2 mSv/h — tempestade solar,critico
+5,11:20,ERRO,Sensor TI-04 retornou valor invalido (631C),critico
+6,13:00,ACAO,Laboratorio entrou em standby — economia de energia,alerta
+7,15:30,ALERTA,Reserva em 33.1% — consumo supera geracao,critico
+8,16:45,INFO,Reinicializacao do modulo de comunicacao via antena de emergencia,alerta

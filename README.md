@@ -294,7 +294,6 @@ a = ȳ - b·x̄
 - Reserva prevista para o próximo ciclo: 14,9%
 - Esgotamento total previsto em aproximadamente 1,3 ciclos
 
----
 
 ## Impacto na Decisão
 

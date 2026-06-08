@@ -316,6 +316,19 @@ Sensor TI-04 retornou leitura inválida.
 ```
 
 
+# 📄 Arquivo CSV 
+
+O arquivo `dados.csv`  neste repositório representa apenas uma simulação utilizada para testes e demonstração do funcionamento do sistema.
+
+Durante a execução do programa, um novo arquivo de telemetria é gerado automaticamente com valores aleatórios e realistas incluindo:
+
+- status dos módulos críticos;
+- geração e consumo de energia;
+- reserva energética;
+- variáveis ambientais;
+- eventos operacionais;
+- inconsistências simuladas.
+
 
 # 🎥 Vídeo de Apresentação
 

@@ -20,14 +20,13 @@ O projeto **ARES-1** simula uma base autônoma localizada em Marte que enfrenta 
 
 O sistema desenvolvido é responsável por:
 
-- Ler dados de telemetria de um arquivo CSV;
+- Gerar automaticamente dados de telemetria simulados em um arquivo CSV;
 - Monitorar módulos críticos da missão;
 - Detectar situações de alerta e falha;
 - Identificar inconsistências em sensores;
 - Gerar alertas automáticos;
 - Prever o comportamento da reserva energética;
 - Emitir recomendações operacionais priorizadas.
-
 
 
 # 🎯 Objetivo

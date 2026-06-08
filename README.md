@@ -325,7 +325,6 @@ ARES-1/
 ├── docs/
 │   ├── relatorio.pdf
 │   ├── link_video.txt
-│   └── uso_ia.md
 │
 └── README.md
 ```
@@ -394,7 +393,7 @@ COLE_AQUI_O_LINK_DO_YOUTUBE
 
 # 📚 Conclusões e Aprendizados
 
-O projeto ARES-1 permitiu aplicar de forma integrada os conteúdos das três primeiras fases do curso, incluindo estruturas de dados, lógica computacional, análise de dados e técnicas simples de inteligência artificial.
+O projeto ARES-1 permitiu aplicar de forma integrada os conteúdos das três primeiras fases do curso, incluindo estruturas de dados, lógica computacional, análise de dados e técnicas de inteligência artificial.
 
 O sistema foi capaz de interpretar dados de telemetria, detectar falhas críticas, identificar inconsistências em sensores, prever o comportamento energético da missão e gerar recomendações automáticas justificadas pelos dados.
 

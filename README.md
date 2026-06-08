@@ -33,7 +33,7 @@ O sistema desenvolvido é responsável por:
 
 Desenvolver um sistema inteligente de monitoramento operacional capaz de interpretar dados de uma missão espacial experimental, diagnosticar situações críticas, prever riscos futuros e auxiliar na tomada de decisões para garantir a sobrevivência da missão.
 
-
+Além disso, o sistema gera automaticamente diferentes cenários operacionais a cada execução, permitindo testar situações de operação normal, alerta e falha crítica.
 
 # 🗂 Estruturas de Dados Utilizadas
 
@@ -56,6 +56,25 @@ lista_consumo = [45, 48, 52, 58, 62, 65]
 Permitem análise cronológica e aplicação da regressão linear.
 
 
+# 🔄 Geração Dinâmica de Cenários
+
+O sistema ARES-1 gera automaticamente um novo conjunto de dados de telemetria a cada execução.
+
+Entre os elementos simulados estão:
+
+- estado dos módulos críticos;
+- geração solar;
+- consumo energético;
+- reserva das baterias;
+- radiação;
+- velocidade do vento;
+- qualidade da comunicação;
+- eventos operacionais;
+- inconsistências de sensores.
+
+Essa abordagem permite testar o comportamento do sistema em diferentes cenários sem necessidade de alterar manualmente os dados de entrada.
+
+A geração dos dados utiliza valores aleatórios dentro de limites realistas para uma missão espacial em Marte, tornando cada execução única.
 
 ## 2. Fila (FIFO)
 

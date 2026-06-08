@@ -134,27 +134,8 @@ Benefício:
 
 
 
-## 5. Hierarquia (Árvore)
 
-Representa a estrutura organizacional da missão.
-
-```text
-ARES-1
-├── Energia
-│   ├── Solar
-│   └── Bateria
-├── Habitat
-│   ├── Oxigênio
-│   ├── Temperatura
-│   └── Comunicação
-└── Ciência
-    ├── Laboratório
-    └── Armazenamento
-```
-
----
-
-## 6. Matriz
+## 5. Matriz
 
 Representa as leituras energéticas ao longo do tempo.
 

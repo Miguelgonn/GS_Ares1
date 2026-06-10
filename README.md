@@ -335,7 +335,7 @@ Durante a execução do programa, um novo arquivo de telemetria é gerado automa
 Link:
 
 ```text
-COLE_AQUI_O_LINK_DO_YOUTUBE
+(https://www.youtube.com/watch?v=EglTTv1mVvQ)
 ```
 
 
